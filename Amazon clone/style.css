@@ -1,0 +1,27 @@
+.top-nav{
+    
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+
+}
+.btm-nav{
+    border: 1px solid black;
+    height: 60px;
+    background-color: #232f3e;
+}
+.top-nav > div {
+   
+    border: 1px solid white;
+    flex-basis: 100px;
+
+}
+.logo{
+    flex: 3;
+}
+.search{
+    flex: 5;
+}
+.sign-in{
+    flex: 4;
+}
